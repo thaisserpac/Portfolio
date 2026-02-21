@@ -514,6 +514,12 @@ section {
   box-shadow: var(--shadow-md);
 }
 
+.stat-value {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+}
+
 .stat-number {
   font-family: var(--font-serif);
   font-size: 3.8rem;
@@ -526,6 +532,7 @@ section {
   font-family: var(--font-serif);
   font-size: var(--fs-2xl);
   color: var(--accent-dark);
+  line-height: 1;
 }
 
 .stat-label {
